@@ -27,9 +27,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title:
-    "Join Us - vibuddy | Web Development, SEO, and Digital Marketing Services",
+    "Apply with ViBuddy | Web Development, SEO, and Digital Marketing Services",
   description:
-    "Join vibuddy for expert web development, SEO, and digital marketing services. Elevate your online presence with our tailored solutions. Contact us today!",
+    "Submit your application to ViBuddy for expert web development, SEO, and digital marketing services. Our team will review your requirements and connect with the right solution.",
   metadataBase: siteUrl ? new URL(siteUrl) : undefined,
   alternates: { canonical: "/" },
   openGraph: {

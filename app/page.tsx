@@ -91,10 +91,12 @@ function ApplicationForm() {
             APPLY NOW
           </p>
           <h2 className="font-heading text-[32px] md:text-[42px] text-dark-text">
-            Submit Your Application
+            Get Your Professional Website with ViBuddy
           </h2>
           <p className="font-body text-[17px] text-body-text mt-3">
-            Take the first step. Fill in your details and we will be in touch.
+            If you are a professional without a website, share your details
+            here. The ViBuddy team will contact you to discuss the right
+            website solution for your business.
           </p>
         </motion.div>
 
@@ -113,13 +115,12 @@ function ApplicationForm() {
                 <CheckCircle2 size={40} className="text-[#16A34A]" />
               </div>
               <h3 className="font-heading text-[26px] text-dark-text font-bold">
-                Application Submitted
+                Details Submitted
               </h3>
               <div className="w-12 h-0.5 bg-gold" />
               <p className="font-body text-[15px] text-body-text leading-[1.85] max-w-120">
-                Thank you for your interest. Our team will review your
-                application and contact you if your profile matches our
-                requirements.
+                Thank you for your interest in ViBuddy. Our team will contact
+                you shortly to discuss your website requirements.
               </p>
               <button
                 onClick={handleReset}
@@ -245,7 +246,7 @@ function ApplicationForm() {
                   type="submit"
                   className="font-body text-[14px] font-semibold bg-navy-deep text-primary-foreground px-8 py-3.5 rounded-full hover:bg-navy-mid transition-all duration-250 shadow-[0_4px_20px_rgba(10,42,110,0.2)] hover:shadow-[0_6px_26px_rgba(10,42,110,0.28)] active:scale-[0.98]"
                 >
-                  Submit Application
+                  Request a Callback
                 </button>
               </div>
             </form>
