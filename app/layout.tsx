@@ -14,6 +14,7 @@ import {
   localSeo,
   businessType,
 } from "@/config/siteConfig";
+import ConfigureAmplifyClientSide from "@/components/ConfigureAmplify";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -64,6 +65,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <ConfigureAmplifyClientSide />
         {children}
       </body>
     </html>
