@@ -22,9 +22,9 @@ const fadeUp = {
 };
 
 const experienceLevels = [
-  { value: "portfolio", label: "Portfolio" },
-  { value: "e-commerce", label: "E-commerce" },
-  { value: "other", label: "Other" },
+  { value: "website", label: 'Website' },
+  { value: "seo", label: "SEO" },
+  { value: "automations", label: "Automations" },
 ];
 
 type FormState = {
@@ -233,7 +233,7 @@ function ApplicationForm() {
                 {/* Experience */}
                 <div className="space-y-2">
                   <label className="block font-body text-[13px] text-slate-text font-semibold tracking-wide">
-                    Website sector
+                    Project Type
                   </label>
                   <div className="relative">
                     <select
@@ -243,7 +243,7 @@ function ApplicationForm() {
                       className={`${inputBase} appearance-none pr-10 cursor-pointer`}
                     >
                       <option value="" disabled>
-                        Select website sector
+                        Select project type
                       </option>
                       {experienceLevels.map((lvl) => (
                         <option key={lvl.value} value={lvl.value}>
