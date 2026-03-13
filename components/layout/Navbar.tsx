@@ -42,9 +42,13 @@ const Navbar = () => {
             Vibuddy
           </span>
         </Link>
-        <button className="font-heading text-[14px] font-semibold bg-navy-deep text-primary-foreground px-5 py-2 rounded-full hover:bg-navy-mid transition-all duration-250 shadow-[0_4px_20px_rgba(10,42,110,0.2)] hover:shadow-[0_6px_26px_rgba(10,42,110,0.28)] active:scale-[0.98]">
+        <Link
+          href={"https://vibuddy.com"}
+          className="font-heading text-[14px] font-semibold bg-navy-deep text-primary-foreground px-5 py-2 rounded-full hover:bg-navy-mid transition-all duration-250 shadow-[0_4px_20px_rgba(10,42,110,0.2)] hover:shadow-[0_6px_26px_rgba(10,42,110,0.28)] active:scale-[0.98]"
+          target="_blank"
+        >
           Visit Our Website
-        </button>
+        </Link>
       </div>
     </motion.header>
   );
